@@ -1,0 +1,9 @@
+# Experimental Windows DirectML path for Intel/AMD/NVIDIA DirectX 12 GPUs.
+# This plugin is discontinued and only supports TensorFlow CPU 2.10.0.
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+tensorflow-cpu==2.10.0
+tensorflow-directml-plugin==0.4.0.dev230202
+numpy==1.23.5
+Pillow==11.2.1
+onnxruntime==1.22.0

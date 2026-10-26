@@ -1,0 +1,42 @@
+# Python environments and generated files
+**/__pycache__/
+*.py[cod]
+*.pyd
+**/.venv/
+**/.venv-*/
+**/venv/
+**/env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environment configuration and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Frontend dependencies and build output
+**/node_modules/
+**/dist/
+**/*.tsbuildinfo
+
+# Local dataset and training artifacts
+/dl/backend/data/
+/dl/backend/training_previews/
+/dl/backend/models/**
+!/dl/backend/models/animeface_generator_model.h5
+!/dl/backend/models/super-resolution-10.onnx
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
