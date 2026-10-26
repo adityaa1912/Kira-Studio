@@ -30,11 +30,11 @@ desktop.ini
 **/*.tsbuildinfo
 
 # Local dataset and training artifacts
-/dl/backend/data/
-/dl/backend/training_previews/
-/dl/backend/models/**
-!/dl/backend/models/animeface_generator_model.h5
-!/dl/backend/models/super-resolution-10.onnx
+/backend/data/
+/backend/training_previews/
+/backend/models/**
+!/backend/models/animeface_generator_model.h5
+!/backend/models/super-resolution-10.onnx
 
 # Logs and temporary files
 *.log
